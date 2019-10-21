@@ -1,5 +1,6 @@
 # Standardized Image data Classification using CNN
 ##############################################################################
+
 Design a convolutional neural network for the dataset provided. It contains 60000 training (training_data.npy) and 10000 test (test_data.npy) examples. The training examples are labeled (training_label.npy) with 10 different classes. Training as well as testing data is in format: numpy list of flattened image pixel values. Length of axis 0 is 60000( training data) and length of axis 1 is 784(number of pixels of each image). 
 #########################################
 
@@ -12,6 +13,7 @@ The Labels are "ONE HOT ENCODED"
 #########################################
 
 #########################################
+
 ##### Model architecture
 
 Convolutional Layer (3x3)x16 RELU
@@ -33,6 +35,7 @@ Dense Layer 10 SOFTMAX
 #########################################
 
 #########################################
+
 ##### Model Optimization 
 
 Loss : Categorical Crossentropy
@@ -42,6 +45,7 @@ Metric : Categorical Accuracy
 #########################################
 
 #########################################
+
 ##### Model Observations 
 
 Model starts to overfit after 8th epoch
