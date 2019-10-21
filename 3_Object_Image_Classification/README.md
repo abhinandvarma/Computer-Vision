@@ -4,6 +4,7 @@
 This project automatically identifies the class of each image. 
 
 20 objects classes with 5-20 examples each in different angles are used as training examples to train a CNN model with the following architecture
+
 ######################################################################
 
 **Model Architecture**
